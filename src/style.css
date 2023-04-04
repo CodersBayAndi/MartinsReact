@@ -1,0 +1,36 @@
+#overlay-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(5, 100px);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.red {
+    background-color: rgba(255, 0, 0, 0.35);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #f00;
+    background-image: url("images/clear.png");
+    background-size: contain;
+}
+
+.blue {
+    background-color: rgba(0, 0, 255, 0.35);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #00f;
+    background-image: url("images/clouds.png");
+    background-size: contain;
+}
+
+body {
+    margin: 0;
+}
